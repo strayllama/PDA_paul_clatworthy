@@ -1,0 +1,48 @@
+To include for the unit in some form, but also some specific for each projects.
+
+MUST DO 5 diagrams for project - Object, Class, Inheritance, Use Case, Implementation Constraints!
+
+Planning:
+* MVP - Trello etc.
+
+### System Architecture ###
+
+Use Case diagrams, they depict:
+* Use requirement
+* Actors - people involved
+* Associations
+* System Boundary boxes
+
+Class Diagrams:
+* More than one class.
+* Attribute name + type
+* Methods
+
+Object Diagrams:
+* An Instantiated class, example!
+
+Inheritance Diagrams:
+* Relationships between the classes (arrows)
+* Focus on flow direction
+* Name, Types of attribs.
+
+#### User experience Items #####
+
+Activity Diagrams:
+* Start --> All ends.
+-- Flow diagram - diamond actions - Yes/No.. etc.
+
+Implementation Constraints Plan:
+Topic / Possible Effect of Constraint on Product / Solution
+
+Pseudocode:
+Example in english break down
+
+Wireframes:
+* you know.
+
+Sitemaps:
+* Map --> Directory Tree, but links.
+
+
+?
