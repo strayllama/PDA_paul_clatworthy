@@ -1,0 +1,4 @@
+Method called pick random card, input an ArrayList of Card objects.
+Create new local variable of type Random called rand
+Initialise rand and use 0 to length of input ArrayList as limiter for range of numbers.
+return object from ArrayList of index rand.

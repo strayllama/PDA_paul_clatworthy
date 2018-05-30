@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pda_Inheritence.iml" filepath="$PROJECT_DIR$/.idea/modules/pda_Inheritence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pda_Inheritence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pda_Inheritence_main.iml" group="pda_Inheritence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pda_Inheritence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pda_Inheritence_test.iml" group="pda_Inheritence" />
+    </modules>
+  </component>
+</project>
