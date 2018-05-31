@@ -9,9 +9,9 @@ describe('calculator', function () {
   //1 - calculator.add()
   // it should add to numbers together
   it('it should add to numbers together', function(){
-    calculator.previousTotal = 5;
+    calculator.previousTotal = 1;
     calculator.add(4);
-    assert.equal(calculator.runningTotal, 9);
+    assert.equal(calculator.runningTotal, 5);
   })
 
   //2 - calculator.subtract()
@@ -26,16 +26,16 @@ describe('calculator', function () {
   //3 - calculator.multiply()
   // it should multiply numbers by each other
   it('it should multiply numbers by each other', function(){
-    calculator.previousTotal = 5;
-    calculator.multiply(4);
-    assert.equal(calculator.runningTotal, 20);
+    calculator.previousTotal = 3;
+    calculator.multiply(5);
+    assert.equal(calculator.runningTotal, 15);
   })
 
   //4 - calculator.divide()
   it('it should divide numbers by each other', function(){
-    calculator.previousTotal = 10;
-    calculator.divide(5);
-    assert.equal(calculator.runningTotal, 2);
+    calculator.previousTotal = 21;
+    calculator.divide(7);
+    assert.equal(calculator.runningTotal, 3);
   })
 
   //5 - calculator.numberClick()
@@ -56,7 +56,7 @@ describe('calculator', function () {
   })
 
   //7 - calculator.clearClick()
-  it('it should reset the runningTotal, if runningTotal > 0', function(){
+  it('it should reset the runningTotal if runningTotal > 0, but leave previous total - so not affect the calculation', function(){
     calculator.numberClick(10);
     calculator.operatorClick('+');
     calculator.numberClick(1);
